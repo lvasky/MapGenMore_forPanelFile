@@ -50,7 +50,6 @@ p_width = calculate_p_width(src_str)
 p_icmax = len(lines)   # 灯板芯片数量为列表数量
 # 计算 p_width
 print("灯板芯片数量为列表数量是" + str(p_icmax))
-print("p_width:", p_width)
 
 # 处理每个灯板级联的情况
 result = lines
